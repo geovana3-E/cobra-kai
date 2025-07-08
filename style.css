@@ -1,0 +1,75 @@
+:root{
+    --cor-fundo: #4274a0 ;
+    --cor-principal: hsl(327, 79%, 20%) ;
+    --cor-secundaria: #ffffff; 
+    --cor-destaque: #fa7c97;
+    --cor-texto: #ffffff;
+
+}
+
+body {
+    background-color: var(--cor-fundo);
+    background-image: url('Cobra-kai-tory-all-valley-tournament-season-5.avif');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caixa-principal{
+    background-color: var(--cor-principal);
+    background-image: url('f');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;  
+
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+
+    border: 2px solid black; 
+}
+
+h1{
+    color: var(--cor-destaque);
+}
+
+button {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+}
+
+button {
+    background: linear-gradient(135deg, #cc46e7, #1e0227);
+    color: var(--cor-texto);
+    border: 2px solid #8b0b4b;
+    border-radius: 25px;
+    padding: 12px 20px;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+button:hover {
+    background: #ffffff;
+    color: #5869ff;
+    border-color: #ffffff;
+}
